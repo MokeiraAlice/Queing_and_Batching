@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Spring batch project?currentSchema=public
+    username: postgres
+    password: 2035
+    driver-class-name: org.postgresql.Driver
+    hikari:
+    # No schema property here (handled via JDBC URL)
+  application:
+    name: Spring batch project
+  batch:
+    job:
+      enabled: false
+    jdbc:
+      initialize-schema: always
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest

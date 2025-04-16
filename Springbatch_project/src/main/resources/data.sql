@@ -1,0 +1,7 @@
+--INSERT INTO persons (id,first_name, last_name, email, birth_date) VALUES
+--('10','John', 'Otieno', 'johnnotieno21@gmail.com', '1983-01-15'),
+--('11','Juliet', 'Barasa', 'jullybarasa@gmail.com', '1989-07-22'),
+--('12','Faith', 'Mochama', 'faithmochama45@gmail.com', '2011-03-30'),
+--('13', 'Angela', 'Baraka', 'barakangie@gmail.com', '1986-12-15'),
+--('14','Eugene', 'Machoka', 'eugenemachoka@gmail.com', '1980-10-22'),
+--('15','Annette', 'Moraa', 'annettemoraa@gmail.com', '2014-05-30');
